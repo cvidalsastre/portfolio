@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom"
+import data from '../src/assets/data/home.json';
 export const Home = () => {
     return (
         <div>
-        <h1>Home</h1>
-        <p>This is the home page</p>
-        <Link to="/about">About</Link>
+        <h1 className="">{data.intro_field}</h1>
+     <ol>
+          {Object.entries(data.dots).map(([key, value], index) => (
+            <li key={key}>
+              <strong>{key}:</strong> {value}
+            </li>
+          ))}
+        </ol>
         </div>
     )
     }
