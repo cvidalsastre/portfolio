@@ -6,7 +6,7 @@ export const Home = () => {
      <ol>
           {Object.entries(data.dots).map(([key, value], index) => (
             <li key={key}>
-              <strong>{key}:</strong> {value}
+              <strong>{index}.{key}:</strong> {value}
             </li>
           ))}
         </ol>
