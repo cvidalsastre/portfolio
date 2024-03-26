@@ -1,0 +1,15 @@
+{
+  "intro_field": "Machine learning is a field of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from and make predictions or decisions based on data, without being explicitly programmed.",
+  "dots": {
+    "Data": "Data is the foundation of machine learning. It can be structured or unstructured and can come in various forms such as text, images, audio, or numerical values. Quality data is crucial for training accurate models.",
+    "Features": "Features are individual measurable properties or characteristics of the data. In image recognition, for example, features might be pixel values, while in natural language processing, they could be word frequencies or semantic attributes.",
+    "Labels": "Labels are the correct outputs or target values associated with input data in supervised learning. For example, in a spam email detection task, emails are labeled as either 'spam' or 'not spam.' Labels are used to train the model to make predictions.",
+    "Model": "A model is a mathematical representation of a real-world process or system. In machine learning, a model learns patterns and relationships from the input data to make predictions or decisions. Models can be simple, such as linear regression, or complex, such as deep neural networks.",
+    "Training": "Training is the process of feeding input data into a model and adjusting its parameters so that it learns to map inputs to outputs accurately. During training, the model tries to minimize the difference between its predictions and the actual labels using optimization algorithms like gradient descent.",
+    "Validation": "Validation is the process of assessing the performance of a trained model on unseen data to ensure it generalizes well. Validation helps detect overfitting, where a model performs well on the training data but poorly on new data.",
+    "Testing": "Testing involves evaluating the performance of a trained model on a separate dataset known as the test set. This provides an unbiased estimate of the model's performance in real-world scenarios.",
+    "Supervised Learning": "Supervised learning is a type of machine learning where the model is trained on a labeled dataset, meaning it learns from input-output pairs. The goal is to learn a mapping from inputs to outputs to make predictions on new data.",
+    "Unsupervised Learning": "Unsupervised learning involves training models on unlabeled data and finding patterns or structures within the data. Clustering and dimensionality reduction are common tasks in unsupervised learning.",
+    "Reinforcement Learning": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on its actions, and its goal is to learn the optimal strategy to maximize cumulative rewards."
+  }
+}
